@@ -12,6 +12,7 @@ def batch_badge_creator(names)
   #end
   return badge
 end
+end
 
 def assign_rooms(speakers)
   greet = []
