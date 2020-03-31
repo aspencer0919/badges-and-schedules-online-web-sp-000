@@ -2,9 +2,7 @@ name = []
 rooms = []
 
 def badge_maker(name)
-  name.each do |badges|
-    return "Hello, my name is #{badges}."
-  end
+  return "Hello, my name is #{badges}."
 end
 
 def batch_badge_creator(badges)
