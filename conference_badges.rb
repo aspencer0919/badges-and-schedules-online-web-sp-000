@@ -1,10 +1,11 @@
-attendees = []
+name = []
 rooms = []
 
 def badge_maker(name)
-  name.each {|name| returns "Hello, my name is #{name}."}
+  name.each do |attendee| 
+    return "Hello, my name is #{attendee}."
   end
-#end
+end
 
 def batch_badge_creator(badges)
 
