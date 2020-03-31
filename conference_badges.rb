@@ -7,10 +7,10 @@ end
 
 def batch_badge_creator(attendees)
   badge = []
-  attendees.each do |name|
-    badge <<
+#  attendees.each do |name|
+#    badge <<
 #  end
-  return badge
+#  return badge
 end
 
 def assign_rooms(speakers, rooms)
