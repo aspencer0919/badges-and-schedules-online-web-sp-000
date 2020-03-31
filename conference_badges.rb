@@ -1,7 +1,7 @@
 name = []
 rooms = []
 
-def badge_maker()
+def badge_maker(name)
   name.each do |badges|
     return "Hello, my name is #{badges}."
   end
